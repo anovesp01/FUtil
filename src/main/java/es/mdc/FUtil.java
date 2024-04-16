@@ -11,6 +11,12 @@ import java.io.File;
  */
 public class FUtil {
     
+    /**
+     * Método que verifica si el archivo que se introduce existe o no.
+     * @param filename El archivo a introducir.
+     * @return Verdadero si existe, falso si no existe.
+     * @throw Excepción si el archivo está en blanco.
+     */
     public static boolean existe(String filename){
         File file = new File(filename);
         if(file.exists()){
