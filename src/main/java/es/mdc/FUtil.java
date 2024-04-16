@@ -17,7 +17,7 @@ public class FUtil {
             return true;
         }
         if(filename.isBlank()){
-            throw new IllegalArgumentException("La cadena no puede estar en blanco.");
+            
         }
         return false;
     }
