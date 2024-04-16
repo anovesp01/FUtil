@@ -19,9 +19,11 @@ public class FUtilApp {
     String archivo1 = "Documentos";
     String archivo2 = "Imágenes";
     String archivo3 = "Vídeos";
+    String cadenaVacia = "";
     boolean respuesta1 = existe(archivo1);
     boolean respuesta2 = existe(archivo2);
     boolean respuesta3 = existe(archivo3);
+    boolean respuesta4 = existe(cadenaVacia);
     
         System.out.printf("Documentos: %b%n Imágenes: %b%n Vídeos: %b%n", respuesta1, respuesta2, respuesta3);
     }
