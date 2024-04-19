@@ -25,7 +25,7 @@ public class FUtil {
         if(filename.isBlank()){
             throw new IllegalArgumentException("La cadena no puede estar en blanco.");
         }
-        System.out.println("(Mensaje para modificar en GitHub)");
+        System.out.println("(Mensaje para modificar y editar en GitHub)");
         return false;
     }
 }
